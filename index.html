@@ -1,24 +1,202 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 15</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 15 Kínder 3</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¡Activando a Nuestro Guardián Digital!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Programar la "respuesta" del guardián usando tarjetas GCS.</li>
+<li>Integrar el entrenamiento (la causa) con el programa (el efecto).</li>
+<li>Depurar el programa si no funciona como se espera.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Creación de una secuencia de tarjetas GCS que programe una acción específica para el Kinderbot.</li>
+<li>Identificación y corrección de "errores" en la secuencia de programación.</li>
+<li>Demostración exitosa de la respuesta programada del Kinderbot al recibir la señal.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Kinderbot "entrenado".</li>
+<li>Tarjetas GCS.</li>
+<li>Plan del proyecto de cada equipo.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos. Verifica que los Kinderbots estén cargados y que haya suficientes tarjetas GCS para todos los equipos.</li>
+<li><strong>Preparación del Espacio:</strong> Organiza el aula en estaciones de trabajo para cada equipo, con suficiente espacio para que los niños se muevan y prueben sus Kinderbots. Un espacio central para las demostraciones será útil.</li>
+<li><strong>Familiarización:</strong> Lee el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Ten clara la historia o el reto que se presentará, y cómo se relaciona con la programación y depuración. Practica la frase "Veo la señal secreta... activando protocolo de respuesta... ejecutando programa GCS" para mantener la atmósfera lúdica.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Equipo, listos para la Misión de Conexión! ⏰ 5 min</h2>
+<p>Activamos nuestras mentes para recordar lo aprendido y prepararnos para nuevos desafíos.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Reactivando Neuronas y Conectando Ideas ⏰ 5 min</h3>
+<p>(Proyectar Diapositiva 1) Saluda a los niños con entusiasmo, creando un ambiente de alegría y anticipación. Pídeles que se sienten en círculo o en un lugar donde todos puedan verse. Recuérdales la misión anterior de "entrenar" a los Kinderbots para reconocer señales, haciendo preguntas como "¿Recuerdan cómo enseñamos a nuestros robots a entender nuestros secretos?" o "¿Qué hacían nuestros Kinderbots cuando les mostrábamos la señal?". Introduce la idea de que ahora es tiempo de que los robots *hagan* algo en respuesta a esas señales, conectando el entrenamiento con la acción. Anímales a pensar en lo que les gustaría que su Kinderbot hiciera. (Proyectar Diapositiva 2: Imagen de un Kinderbot con un signo de interrogación, invitando a la acción).</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, equipo de genios de la tecnología! ¡Qué emoción ver sus caritas llenas de energía hoy! Vamos a sentarnos cómodamente para nuestra nueva aventura. ¿Recuerdan que en nuestra última misión, ¡entrenamos a nuestros Kinderbots para que fueran unos súper guardianes que reconocen nuestras señales secretas? ¡Fue increíble ver cómo aprendían a identificar su señal! Pero, ¿saben qué? ¡Ahora viene la parte más emocionante! ¡Ya que nuestros guardianes pueden *entender* nuestra señal, debemos programarlos para que *hagan* algo grandioso cuando la detecten! ¡Es como darles una lista de órdenes para que se pongan en acción! ¿Qué creen que podrían hacer? ¡Mmm, qué ideas tan geniales! ¿Están listos para este nuevo desafío de convertir nuestras ideas en acciones para los robots?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Gran Desafío: ¡Dando Vida a Nuestro Guardián! ⏰ 5 min</h2>
+<p>Descubrimos el misterio de cómo nuestras ideas se convierten en acciones para nuestros amigables robots.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Desvelando el Secreto de la Programación ⏰ 5 min</h3>
+<p>(Proyectar Diapositiva 3) Crea un ambiente de misterio y emoción. Puedes susurrar o hablar en voz baja al principio para captar su atención. Explica que para que el Kinderbot "haga" algo, necesitamos darle instrucciones muy claras y específicas, como si fuera un mapa del tesoro, pero para el robot. Enfatiza que los robots no entienden el lenguaje humano, así que necesitamos un lenguaje especial. Introduce las tarjetas GCS (tarjetas de comandos gráficos) como ese "lenguaje secreto" o esas "instrucciones mágicas" que el Kinderbot sí entiende. Muestra algunas tarjetas GCS y pregúntales qué creen que significan. Anima a los niños a imaginar que son ingenieros y programadores, listos para enseñar a los robots. (Proyectar Diapositiva 4: Ejemplos de tarjetas GCS y lo que representan, como "girar", "avanzar", "sonar").</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, equipo! Acerquen sus orejitas, porque les voy a contar un secreto... Imaginen que nuestro Kinderbot es un súper amigo que quiere ayudarnos en el aula, ¡pero necesita nuestras instrucciones claras como el agua para saber qué hacer! ¿Cómo le decimos 'gira a la derecha', 'suena una canción' o 'avanza un poquito'? ¡No entiende nuestro idioma! ¡Ahí entra la magia de la programación! Hoy, vamos a ser ingenieros y programadores, usando estas tarjetas especiales que llamamos GCS. ¡Son como el lenguaje secreto de los robots! Cada tarjeta es una instrucción, como una pieza de un rompecabezas. Vamos a unir estas tarjetas para darle a nuestro Kinderbot una 'receta' mágica para que haga exactamente lo que queremos cuando vea nuestra señal. ¡Es como construir un camino de instrucciones paso a paso para que él lo siga! ¿Están listos para ser los arquitectos de las acciones de nuestros Kinderbots?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Codificando la Aventura: Programando a Nuestros Amigos Robots! ⏰ 25 min</h2>
+<p>Es hora de que cada equipo use su ingenio para crear la secuencia de acciones perfecta para su Kinderbot.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Organizando el Taller de Programación ⏰ 5 min</h3>
+<p>(Proyectar Diapositiva 5) Divide a los niños en sus equipos previamente asignados. Guía a cada equipo para que retome su plan de proyecto (el diseño de la señal y la acción deseada). Asegúrate de que tengan a la mano su Kinderbot "entrenado" y el conjunto de tarjetas GCS. Explícales que el maestro actuará como el "procesador central" del sistema: cuando ellos den la señal, el maestro conectará esa señal con la ejecución de su programa de tarjetas GCS. Recuérdales la importancia de trabajar juntos y escuchar las ideas de todos en el equipo. Distribuye los materiales de manera ordenada.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Muy bien, pequeños programadores! ¡Manos a la obra! Es hora de que cada equipo se reúna con su plan de proyecto. ¿Recuerdan el plan que hicimos para su Kinderbot? ¡Es el mapa para nuestra misión de hoy! Ahora, saquen sus tarjetas GCS y su Kinderbot. Su misión es crear la secuencia de movimientos o sonidos que quieren que haga su guardián cuando reciba la señal secreta. Piensen: ¿Qué acción quieren que haga? ¿Cuántos pasos necesita esa acción? ¡Y aquí viene lo divertido! ¡Yo seré su 'procesador central'! Cuando me muestren la señal, ¡yo activaré a su Kinderbot para que siga su programa de tarjetas! ¡Prepárense para la prueba!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Construyendo y Depurando el Código Robot ⏰ 20 min</h3>
+<p>(Proyectar Diapositiva 6) Circula entre los equipos, observando su proceso de creación de secuencias. Haz preguntas que guíen su pensamiento sin darles la respuesta directamente: "¿Qué crees que hará el Kinderbot con esa tarjeta?", "¿Qué pasaría si pones esta tarjeta primero?", "¿Cómo podemos hacer que gire dos veces?". Cuando un equipo esté listo, realiza la prueba: un niño del equipo presenta la señal secreta. El maestro, actuando como el "procesador central", dice en voz alta: "Veo la señal secreta... activando protocolo de respuesta... ejecutando programa GCS" y luego "activa" al robot para que ejecute la secuencia de tarjetas que los niños han dispuesto. Si el Kinderbot no funciona como se esperaba, anímalos a "depurar" su programa. Explícales que depurar es como ser un detective que busca el 'error' o la parte que no funciona en la secuencia de instrucciones. Guíalos para revisar las tarjetas, reordenarlas o cambiarlas si es necesario. Celebra cada intento, exitoso o no, como una oportunidad de aprendizaje.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wow, veo unas secuencias de programación increíbles! ¡Están pensando como verdaderos ingenieros! Recuerden, cada tarjeta es un paso para nuestro amigo robot. Si quieren que gire, ¿cuántas tarjetas de giro necesitamos? ¿Y qué pasaría si cambiamos esta tarjeta por otra? ¡Qué buena idea! Ahora, ¡es el momento de la prueba! Un miembro del equipo, ¡muéstrame la señal secreta! (Una vez mostrada) ¡Muy bien! "Veo la señal secreta... activando protocolo de respuesta... ejecutando programa GCS". (Activa el robot). ¡Miren! ¿Funcionó exactamente como esperaban? Si el robot no hace exactamente lo que esperaban, ¡no pasa nada! ¡Eso es parte de la aventura de la programación! ¡Somos detectives de la programación! ¡Hay que buscar el 'error' en nuestras instrucciones y hacerlo mejor! Eso se llama 'depurar'. ¡Es como cuando un rompecabezas no encaja y hay que mover las piezas para que todo quede perfecto! ¡Ustedes pueden, equipo! ¡A seguir intentando y descubriendo!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Celebración de Éxitos y Ensayo de Héroes! ⏰ 5 min</h2>
+<p>Compartimos nuestros logros, celebramos la magia de la programación y nos preparamos para la gran presentación.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Compartiendo la Magia Programada ⏰ 3 min</h3>
+<p>(Proyectar Diapositiva 7) Reúne a los niños en un círculo o área de demostración. Pide a algunos equipos (o a todos, si el tiempo lo permite y puedes hacer que sea rápido) que demuestren su Kinderbot en acción. Anima a los niños a explicar a sus compañeros qué programaron y si tuvieron que 'depurar' algo, es decir, si encontraron algún problema y cómo lo resolvieron. Celebra cada demostración con aplausos y elogios específicos sobre su creatividad y perseverancia. Haz énfasis en que el "error" es una oportunidad para aprender.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, equipo de campeones! ¡Qué emocionante ha sido verlos programar! ¡Ahora es el momento de compartir nuestra magia! ¿Quién quiere ser el primero en mostrarnos la increíble acción que programó para su Kinderbot? ¡Venga, muéstrennos cómo su guardián cobra vida! ¡Y cuéntenos, qué programaron y si tuvieron que hacer algún 'ajuste' o 'depuración' para que funcionara perfecto! ¡Cada logro, cada ajuste, es un paso gigante en el mundo de la programación!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Preparando la Gran Exhibición y Despedida ⏰ 2 min</h3>
+<p>(Proyectar Diapositiva 8) Recuerda a los niños que la próxima vez será la "gran demostración" o "exhibición final" donde todos los Kinderbots mostrarán sus habilidades a una audiencia especial (pueden ser otros maestros, padres, o incluso otros niños). Felicítalos por su increíble trabajo, su creatividad y su capacidad para resolver problemas como verdaderos ingenieros y programadores. Cierra con una nota de entusiasmo y anticipación para la próxima sesión.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Increíble trabajo, ingenieros del futuro! ¡Hoy programaron a sus Kinderbots para que hicieran cosas asombrosas! ¡Son unos verdaderos magos de la tecnología! Aprendieron a dar instrucciones claras y a solucionar problemas. ¡Y la próxima vez, tendremos nuestra gran exhibición! ¡Será el día en que sus Kinderbots muestren todo lo que han aprendido! ¡Prepárense para ser las estrellas! ¡Estoy tan orgulloso de ustedes! ¡Misión cumplida por hoy, pero la aventura tecnológica continúa! ¡Hasta la próxima, equipo!</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
